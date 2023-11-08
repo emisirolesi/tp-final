@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Odor Mean Chey ;
+    margin: 0;
+    padding: 0;
+}
+/* Encabezado */
+.nombreclub {
+    background-color: #fff;
+    color:black;
+    text-align: left;
+    font-size: 10px;
+    padding: 10px;
+}
+.menu {
+    background-color: #0f2c4b;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.menu nav ul {
+    list-style-type: none;
+}
+.menu nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.menu nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.noticias
+{
+	width: 100%; 
+	margin:15px auto;
+	display: flex; /* propiedad flex para el contenedor seccion */
+	flex-direction: row;/* define eje principal como fila (por defecto)*/
+	/*flex-direction: column;*/
+	flex-wrap: wrap;  /*Evita o permite el desbordamiento (multilinea)*/
+	/*justify-content: space-around; /*Distribuye los ítems dejando el mismo espacio alrededor de ellos (izq/dcha) en el eje principal.*/
+	justify-content: center;
+	/*justify-content: space between;  /*Distribuye los ítems dejando el máximo espacio para separarlos.space-between;*/
+	align-content: space-around; /*actúa sobre cada una de las líneas de un contenedor multilinea en el eje secundario*/
+	}
+
+.figure img{
+			
+	padding: 5px; /*linea borde imagen*/
+	background:rgb(0, 0, 0);/* color borde imagen */
+	border-radius: 20px; /* redondeo borde imagen */
+	box-shadow: #0f2c4b 10px 10px 10px; /* sombra imagen */
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s; /* efecto velocidad imagen chrome*/
+	-moz-transition:-moz-transform 0.3s ease-in-out 0.1s; /* efecto velocidad imagen mozilla*/
+	-ms-transition:-ms-transform 0.3s ease-in-out 0.1s; /* efecto velocidad imagen explorer*/
+}
+.figure img:hover{
+-webkit-transform:scale(1.2); /* efecto cuando pasa el mouse sobre la imagen chrome*/
+-moz-transform:scale(1.2);  /* efecto cuando pasa el mouse sobre la imagen mozilla*/
+-ms-transform:scale(1.2);	/* efecto cuando pasa el mouse sobre la imagen explorer*/
+}
+.figcaption{
+	font-family: 'Odor Mean Chey'; /* tipo de fuente del figcaption*/
+	font-size: 1.5em; /* tamaño de la fuente*/ 
+	margin-top: 10px; /* distancia superior con la imagen*/
+	padding-right: 10px;
+	color: #0f2c4b;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0f2c4b;
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+    padding: 50px;
+}
+.hashtag {
+    text-align: left;
+    font-size: 35px;
+}
+.textofooter {
+    text-align: right;
+    font-size: 35px;
+}
+/* Formulario de contacto */
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+form input[type="submit"] {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #001f3f;
+}
